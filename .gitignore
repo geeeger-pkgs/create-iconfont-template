@@ -1,0 +1,46 @@
+.DS_Store
+node_modules
+/dist
+.temp
+.rn_temp
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/*
+
+# pika/pack
+/pkg
+
+# coverage
+/coverage
+**/junit.xml
+
+# eslint
+.eslintcache
+
+# ssr
+/dist-ssr
+
+# fonts
+lib/*.ttf
+lib/*.woff
+lib/*.woff2
+
+# tmp
+/tmp

@@ -1,0 +1,28 @@
+{
+  "name": "@geeeger/mobile-icons",
+  "version": "0.0.0",
+  "description": "自己的mobile图标库模板",
+  "author": {
+    "name": "geeeger",
+    "email": "lph1988520@sina.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "fast-glob": "^3.2.5",
+    "fs-extra": "^9.1.0",
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-svgmin": "^3.0.0",
+    "hash-files": "^1.1.1",
+    "pinyin": "^2.9.1",
+    "prettier": "^2.2.1",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "build": "gulp --gulpfile ./build/build-iconfont.js"
+  }
+}
